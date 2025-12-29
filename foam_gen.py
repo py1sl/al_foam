@@ -32,7 +32,7 @@ def check_overlap(x1, y1, z1, r1, x2, y2, z2, r2):
 
 def generate_random_pores(num_pores, x_range, y_range, z_range, r_min, r_max, max_attempts=1000, seed=None):
     """
-    Generate x number of non-overlapping spherical pores with random positions and radii.
+    Generate a specified number of non-overlapping spherical pores with random positions and radii.
     
     Args:
         num_pores: Number of pores to generate
